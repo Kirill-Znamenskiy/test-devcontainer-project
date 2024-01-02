@@ -1,9 +1,9 @@
 {
 	"name": "test-devcontainer-project",
-		"image": "mcr.microsoft.com/devcontainers/go:1-bookworm",
-	"mounts": [
-		"type=bind,source=/home/gg/.cache,target=/home/gg/.cache"
-	]
+		"image": "mcr.microsoft.com/devcontainers/go:1-bookworm"
+	//"mounts": [
+	//	"type=bind,source=/home/gg/.cache,target=/home/gg/.cache"
+	//]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
